@@ -192,6 +192,17 @@ hr {
     border-radius: 50%;
 }
 
+#times1-container {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background: url('../images/morango.jpg') no-repeat center center;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+}
+
 /* event times */
 
 #times {
