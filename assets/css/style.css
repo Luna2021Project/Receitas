@@ -18,7 +18,7 @@ h1,h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
+    color: #f16c6b; /* #252525; */
 }
 
 #logo {
@@ -54,7 +54,7 @@ h1,h2 {
     color: inherit;
 } 
 
-.active {
+.active { /* linha abaixo dos itens do menu */
     border-bottom: 1px solid #3a3a3a;
 }
 
@@ -108,7 +108,7 @@ h1,h2 {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(241, 109, 107, .7);
+    background-color: #f16c6b; /* rgba(241, 109, 107, .7); */
 
     bottom: 100px;
     right: 200px;
@@ -196,7 +196,51 @@ hr {
     width: 300px;
     height: 300px;
     margin: 0 auto;
-    background: url('../images/morango.jpg') no-repeat center center;
+    background: url('../images/bolo.jpg') no-repeat center center;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+}
+
+#times2-container {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background: url('../images/carne.jpg') no-repeat center center;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+}
+
+#times3-container {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background: url('../images/palmito.jpg') no-repeat center center;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+}
+
+#times4-container {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background: url('../images/arroz.jpg') no-repeat center center;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+}
+
+#times5-container {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background: url('../images/nhoque.jpg') no-repeat center center;
     padding: 30px;
     border-style: solid;
     border-color: #ccc;
@@ -206,7 +250,6 @@ hr {
 /* event times */
 
 #times {
-    background-image: url('../images/dublin-city.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -215,8 +258,8 @@ hr {
 }
 
 #times div {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
+    color: black;
+    background-color: white; /* rgba(0, 0, 0, .6); */
     width: 20%;
     height: 300px;
     float: left;
@@ -227,7 +270,7 @@ hr {
 }
 
 #times h2 {
-    color: black; /* #fafafa; */
+    color: rgb(56, 39, 209); 
 }
 
 /* footer */
@@ -299,7 +342,7 @@ footer {
 }
 
 .text-input:hover {
-    border-color: #f16c6b
+    border-color: #f16c6b; /* #f16c6b */
 }
 
 .join-button {
@@ -314,7 +357,7 @@ footer {
 }
 .join-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: #f16c6b; /* #f16c6b; */
 }
 
 /* Media queries */
