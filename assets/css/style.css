@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&family=Anton:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -192,7 +192,7 @@ hr {
     border-radius: 50%;
 }
 
-#times1-container {
+#times1-container {    
     width: 300px;
     height: 300px;
     margin: 0 auto;
@@ -270,7 +270,12 @@ hr {
 }
 
 #times h2 {
-    color: rgb(56, 39, 209); 
+    font-family: Anton; /* Oswald, sans-serif; */
+    color: rgb(97, 188, 248); 
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 5px 0 0 10px;
+    text-align: left;
 }
 
 /* footer */
