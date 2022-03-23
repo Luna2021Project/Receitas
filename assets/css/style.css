@@ -201,6 +201,7 @@ hr {
     border-style: solid;
     border-color: #ccc;
     border-width: 1px;
+    opacity: 0.5;
 }
 
 #times2-container {
@@ -212,6 +213,7 @@ hr {
     border-style: solid;
     border-color: #ccc;
     border-width: 1px;
+    opacity: 0.5;
 }
 
 #times3-container {
@@ -223,6 +225,7 @@ hr {
     border-style: solid;
     border-color: #ccc;
     border-width: 1px;
+    opacity: 0.5;
 }
 
 #times4-container {
@@ -234,6 +237,7 @@ hr {
     border-style: solid;
     border-color: #ccc;
     border-width: 1px;
+    opacity: 0.5;
 }
 
 #times5-container {
@@ -245,6 +249,7 @@ hr {
     border-style: solid;
     border-color: #ccc;
     border-width: 1px;
+    opacity: 0.5;
 }
 
 /* event times */
